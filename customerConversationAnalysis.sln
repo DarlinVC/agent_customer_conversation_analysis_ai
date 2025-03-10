@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "customerConversationAnalysis", "customerConversationAnalysis.csproj", "{81A481EF-17FB-28A2-D0B6-58FA73831FCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81A481EF-17FB-28A2-D0B6-58FA73831FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A481EF-17FB-28A2-D0B6-58FA73831FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A481EF-17FB-28A2-D0B6-58FA73831FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A481EF-17FB-28A2-D0B6-58FA73831FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19D2B2AA-4686-4DBC-A7A1-683B38D55A43}
+	EndGlobalSection
+EndGlobal

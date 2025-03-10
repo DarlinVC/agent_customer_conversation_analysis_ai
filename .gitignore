@@ -1,0 +1,85 @@
+# Windows
+[Dd]esktop.ini
+[Tt]humbs.db
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files
+*.vspscc
+.vsconfig
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files for Rider
+.idea/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]istros/
+[Dd]ebug/
+[Dd]ebug/
+[Dd]ebugServer/
+[Dd]ebugConsole/
+[Dd]ebugger/
+
+# ASP.NET temporary files
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core / ASP.NET Core
+.vs2019/
+.vs2017/
+
+# IIS express
+/.vs2019/
+/.vs2017/
+.vscode
+
+# NuGet
+# Windows
+*.nupkg
+# OSX/Linux
+*.nupkg
+
+# ASP.NET Core local development certificates
+**/.aspnet/https/
+
+# Npm
+node_modules/
+
+# Yarn
+yarn-error.log
+.yarn-integrity
+
+# Microsoft Azure Web App publish settings
+PublishProfiles/
+
+# Tye
+.tye/
+
+# JetBrains Rider
+.idea/
+
+# Visual Studio for Mac
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
