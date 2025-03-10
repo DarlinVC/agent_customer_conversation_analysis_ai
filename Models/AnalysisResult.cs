@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace MyApi.Models
+namespace api.Models
 {
     public class AnalysisResult
     {

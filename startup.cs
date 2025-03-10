@@ -1,16 +1,17 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using MyApi.Services;
+using api.Services;
 
-namespace MyApi
+namespace api
 {
     public class Startup
     {
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddHttpClient<GPTService>(); // Register GPT service
+            // Register GPT SETTINGS --- IMPORTANT!
+            services.AddHttpClient<GPTService>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

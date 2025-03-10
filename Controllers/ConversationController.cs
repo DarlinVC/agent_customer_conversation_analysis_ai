@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using MyApi.Models;
-using MyApi.Services;
+using api.Models;
+using api.Services;
 using System.Threading.Tasks;
 
 namespace MyApi.Controllers
@@ -30,7 +30,7 @@ namespace MyApi.Controllers
                 }
             }
 
-            conversationModel.OverallSatisfaction = "This section is developing"; // Optionally, analyze overall satisfaction via GPT as well.
+            conversationModel.OverallSatisfaction = "This section is developing"; 
             return Ok(conversationModel);
         }
     }
